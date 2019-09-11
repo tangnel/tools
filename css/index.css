@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color:#ccc;
+    font-size: 12px;
+    
+}
+.icon {
+    width: 1.5em; 
+    height: 1.5em;
+    vertical-align: -0.3em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+body{
+    background-color: #f0f3ef;
+    
+}
+a{
+    color:#999;
+}
+.shortcut{
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+}
+.shortcut .w{
+    width:1190px;
+    margin:0 auto;
+    height:30px;
+    line-height: 30px;
+}
+.shortcut .w .position{
+    float:left;
+}
+.shortcut .w .position .loc{
+    padding:0 7px;
+}
+.shortcut .w .nav{
+    float: right;
+}
+.shortcut .w .nav li{
+    float: left;
+    padding:0 7px;
+}
+.shortcut .w .nav li a{
+    color:#999;
+}
+.shortcut .w .nav li a.lightHeight{
+    color:#f00;
+}
+/* .shortcut .w .nav li a:hover{
+    color:#e33333;
+} */
+.shortcut .w .nav .space{
+    overflow: hidden;
+    margin: 10px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    padding: 0;
+}

@@ -1,0 +1,183 @@
+$("#myJD").addDropDown({
+    dropDownWidth:280,
+    colWidth:126,
+    menuList:[{
+        title:"",
+        items:[
+            {href:"#",name:"待处理订单"},
+            {href:"#",name:"返修退换货"},
+            {href:"#",name:"降价商品"},
+            {href:"#",name:"消息"},
+            {href:"#",name:"我的问答"},
+            {href:"#",name:"我的关注"}
+        ]
+    },{
+        title:"",
+        items:[
+            {href:"#",name:"我的京豆"},
+            {href:"#",name:"我的白条"},
+            {href:"#",name:"我的优惠券"},
+            {href:"#",name:"我的理财"}
+        ]
+    }]
+});
+$("#companyBuy").addDropDown({
+    dropDownWidth:140,
+    colWidth:56,
+    menuList:[{
+        title:"",
+        items:[
+            {href:"#",name:"企业购"},
+            {href:"#",name:"商用场景馆"},
+            {href:"#",name:"工业品"},
+            {href:"#",name:"礼品卡"},
+        ]
+    }]
+})
+$("#uerSerive").addDropDown({
+    dropDownWidth:170,
+    colWidth:70,
+    menuList:[{
+        title:"客户",
+        items:[
+            {href:"#",name:"帮助中心"},
+            {href:"#",name:"售后服务"},
+            {href:"#",name:"在线客服"},
+            {href:"#",name:"意见建议"},
+            {href:"#",name:"电话客服"},
+            {href:"#",name:"客服邮箱"},
+            {href:"#",name:"金融咨询"},
+            {href:"#",name:"全球售客服"}
+        ]
+    },{
+        title:"商户",
+        items:[
+            {href:"#",name:"合作招商"},
+            {href:"#",name:"成长中心"},
+            {href:"#",name:"商家后台"},
+            {href:"#",name:"京麦工作台"},
+            {href:"#",name:"商家帮助"},
+            {href:"#",name:"规则平台"}
+        ]
+    }]
+})
+
+$("#website").addDropDown({
+    direction:"x",
+    dropDownWidth:1188,
+    menuList:[{
+        title:"特色主题",
+        menuWidth:340,
+        colWidth:85,
+        items:[
+            {href:"#",name:"京东试用"},
+            {href:"#",name:"京东金融"},
+            {href:"#",name:"全球售"},
+            {href:"#",name:"国际站"},
+            {href:"#",name:"京东会员"},
+            {href:"#",name:"京东预售"},
+            {href:"#",name:"买什么"},
+            {href:"#",name:"俄语站"},
+            {href:"#",name:"装机大师"},
+            {href:"#",name:"0元评测"},
+            {href:"#",name:"港澳售"},
+            {href:"#",name:"优惠券"},
+            {href:"#",name:"秒杀"},
+            {href:"#",name:"闪购"},
+            {href:"#",name:"印尼站"},
+            {href:"#",name:"京东金融科技"},
+            {href:"#",name:"陪伴计划"},
+            {href:"#",name:"出海招商"},
+            {href:"#",name:"拍拍二手"}
+        ]
+    },{
+        title:"行业频道",
+        menuWidth:255,
+        colWidth:85,
+        items:[
+            {href:"#",name:"手机"},
+            {href:"#",name:"智能数码"},
+            {href:"#",name:"玩3C"},
+            {href:"#",name:"电脑办公"},
+            {href:"#",name:"家用电器"},
+            {href:"#",name:"京鱼座智能"},
+            {href:"#",name:"服装城"},
+            {href:"#",name:"京东生鲜"},
+            {href:"#",name:"家装城"},
+            {href:"#",name:"母婴食品"},
+            {href:"#",name:"农资频道"},
+            {href:"#",name:"整车图书"},
+            {href:"#",name:"劳动防护"}
+        ]
+    }]
+})
+var curCity = $("#location").find("a").text();
+$("#location").addDropDown({
+    dropDownWidth:300,
+    curCity:curCity,
+    menuList:[{
+        title:"",
+        dropDownType:"city",
+        colWidth:60,
+        items:[
+            {href:"#",name:"北京"},
+            {href:"#",name:"上海"},
+            {href:"#",name:"天津"},
+            {href:"#",name:"重庆"},
+            {href:"#",name:"河北"},
+            {href:"#",name:"山西"},
+            {href:"#",name:"河南"},
+            {href:"#",name:"辽宁"},
+            {href:"#",name:"吉林"},
+            {href:"#",name:"黑龙江"},
+            {href:"#",name:"内蒙古"},
+            {href:"#",name:"江苏"},
+            {href:"#",name:"山东"},
+            {href:"#",name:"安徽"},
+            {href:"#",name:"浙江"},
+            {href:"#",name:"福建"},
+            {href:"#",name:"湖北"},
+            {href:"#",name:"湖南"},
+            {href:"#",name:"广东"},
+            {href:"#",name:"广西"},
+            {href:"#",name:"江西"},
+            {href:"#",name:"四川"},
+            {href:"#",name:"海南"},
+            {href:"#",name:"贵州"},
+            {href:"#",name:"云南"},
+            {href:"#",name:"西藏"},
+            {href:"#",name:"陕西"},
+            {href:"#",name:"甘肃"},
+            {href:"#",name:"青海"},
+            {href:"#",name:"宁夏"},
+            {href:"#",name:"新疆"},
+            {href:"#",name:"港澳"},
+            {href:"#",name:"台湾"},
+            {href:"#",name:"钓鱼岛"},
+            {href:"#",name:"海外"}
+        ]
+    },{
+        title:"地区专享版本",
+        colWidth:60,
+        items:[
+            {href:"#",name:"中國港澳"}
+        ]
+    },{
+        title:"Available Sites",
+        colWidth:145,
+        items:[
+            {iconUrl:"icon-guojia",href:"#",name:"Global Site"},
+            {iconUrl:"icon-eluosi",href:"#",name:"Сайт России"},
+            {iconUrl:"icon-icon_IDyindunixiya",href:"#",name:"Situs Indonesia"},
+            {iconUrl:"icon-xibanya",href:"#",name:"Sitio de España"},
+            {iconUrl:"icon-taiguo",href:"#",name:"เว็บไซต์ประเทศไทย"}
+        ]
+    }]
+})
+
+
+
+
+
+
+
